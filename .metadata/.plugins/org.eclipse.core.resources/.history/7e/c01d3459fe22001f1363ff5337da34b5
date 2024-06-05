@@ -1,0 +1,5 @@
+package ourpack;
+
+public interface Second {
+
+}

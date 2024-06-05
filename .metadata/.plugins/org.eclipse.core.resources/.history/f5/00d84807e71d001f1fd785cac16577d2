@@ -1,0 +1,10 @@
+package saiee1;
+
+class PackDemo 
+{
+	
+	protected int i = 1;
+	protected String sai = "Saiee";
+	
+	
+}

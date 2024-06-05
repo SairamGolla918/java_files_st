@@ -1,0 +1,5 @@
+package SecondPro;
+
+public abstract class Book {
+
+}

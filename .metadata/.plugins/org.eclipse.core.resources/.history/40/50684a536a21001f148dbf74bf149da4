@@ -1,0 +1,9 @@
+package Assessment6;
+
+public class ArthematicOperators {
+
+	public ArthematicOperators() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

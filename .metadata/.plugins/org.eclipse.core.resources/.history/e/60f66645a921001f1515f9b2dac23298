@@ -1,0 +1,14 @@
+package myPack;
+
+public class PaymentProcessor implements Payment {
+
+	public PaymentProcessor() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

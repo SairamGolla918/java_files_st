@@ -1,0 +1,9 @@
+package saiee1;
+
+public class PackDemo 
+{
+	
+	protected int i = 1;
+	protected String sai = "Saiee";
+	
+}

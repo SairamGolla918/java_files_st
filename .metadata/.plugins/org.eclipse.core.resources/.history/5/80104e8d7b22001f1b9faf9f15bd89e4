@@ -1,0 +1,39 @@
+package Assessment8;
+
+public class ShapeOut 
+{
+	public static void main(String[] args)
+	{
+		Rectangle R = new Rectangle();
+		System.out.println(R.toString());
+		Circle C = new Circle();
+		System.out.println(C.toString());
+		Triangle T = new Triangle();
+		System.out.println(T.toString());
+	}
+
+}
+class Rectangle implements Shape
+{
+	public double getArea(double ... i)
+	{
+		return i[0]*i[1];
+	}
+}
+
+class Circle implements Shape
+{
+	public double getArea(double ... i)
+	{
+		return 3.14*i[0]*i[0];
+	}
+}
+
+class Triangle implements Shape
+{
+	public double getArea(double ... i)
+	{
+		return 0.5*i[0]*i[1];
+	}
+}
+

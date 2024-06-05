@@ -1,0 +1,9 @@
+package saiee2;
+
+public class PackTest {
+
+	public PackTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

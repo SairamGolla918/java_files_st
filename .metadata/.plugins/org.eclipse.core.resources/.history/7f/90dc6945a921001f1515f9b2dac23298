@@ -1,0 +1,16 @@
+package myPack;
+
+class PaymentProcessor implements Payment 
+{
+
+	double makePayment(Payment payment,double amount)
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

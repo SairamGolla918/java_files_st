@@ -1,0 +1,15 @@
+package ThirdPro;
+
+public abstract class ShapeCalc 
+{
+
+	abstract double CalculateArea(double area);
+
+
+}
+
+
+Circle extends ShapeCalc
+{
+	
+}

@@ -1,0 +1,19 @@
+package lastpack;
+
+import myPack.First;
+import ourpack.Second;
+import yourPack.FirstClass;
+
+public class SecondClass extends FirstClass implements First, Second 
+{
+
+	
+	
+	public static void main(String[] args) 
+	{
+		Second obj = new SecondClass();
+		obj.show();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package saiee2;
+
+import saiee1.PackDemo;
+
+public class PackTest 
+{	
+		public static void main(String[] args)
+		{
+			PackDemo obj = new PackDemo();
+			System.out.println(obj);
+		}
+}

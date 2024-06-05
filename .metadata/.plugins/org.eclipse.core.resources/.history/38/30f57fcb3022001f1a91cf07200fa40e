@@ -1,0 +1,7 @@
+package ourpack;
+
+import myPack.FirstInterface;
+
+public class ClassOne implements FirstInterface {
+
+}

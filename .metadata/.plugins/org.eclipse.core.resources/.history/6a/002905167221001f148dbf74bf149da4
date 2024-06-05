@@ -1,0 +1,39 @@
+package Assessment6;
+
+public class ControlStatements 
+{
+	public static void main(String[] args)
+	{
+		
+		for(int i = 1; i <= 7;i++)
+		{
+			if(i == 1)
+				System.out.println("Week Start");
+			else if((i > 1) && ( i < 6))
+			{
+				while((i>1) && ( i < 6))
+				{
+					switch(i) 
+					{
+					case 2:
+						System.out.println("Its TuesDay");
+						break;
+					case 3:
+						System.out.println("Its WedDay");
+						break;
+					case 4:
+						System.out.println("Its ThursDay");
+						break;
+					default:
+						System.out.println("Mid Week");
+						break;
+					}
+					i++;
+				}
+			}
+			else
+				System.out.println("Week End");
+		}
+	}
+
+}

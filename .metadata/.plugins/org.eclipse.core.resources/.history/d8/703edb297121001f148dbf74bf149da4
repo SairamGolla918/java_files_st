@@ -1,0 +1,9 @@
+package Assessment6;
+
+public class ControlStatements {
+
+	public ControlStatements() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

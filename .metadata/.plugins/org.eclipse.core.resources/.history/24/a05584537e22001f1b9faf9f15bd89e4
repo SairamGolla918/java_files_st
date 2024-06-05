@@ -1,0 +1,25 @@
+package Assessment8;
+
+public class AnimalOut {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Dog implements Animal
+{
+	public String  Speak()
+	{
+		return "Dog is barking";
+	}
+
+	@Override
+	public void Bark() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

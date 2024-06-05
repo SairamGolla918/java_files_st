@@ -1,0 +1,11 @@
+package Aggregation;
+
+public class Employee 
+{	
+	int EmpName;
+	String EmpId;
+	int Salary;
+	Address address;
+	
+
+}

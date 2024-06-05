@@ -1,0 +1,9 @@
+package myPack;
+
+public class creditCard implements Payment {
+
+	public creditCard() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

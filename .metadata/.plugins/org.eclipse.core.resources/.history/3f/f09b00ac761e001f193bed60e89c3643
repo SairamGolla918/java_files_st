@@ -1,0 +1,25 @@
+package saiee2;
+
+public class ATM 
+{
+	int balance = 1000;
+	
+	int Check()
+	{
+		return balance;
+	}
+	int Withdraw(int withdraw)
+	{
+		if(withdraw <= balance )
+			return balance - withdraw;
+		else
+			return balance;			
+	}
+	int Deposit(int Deposit)
+	{
+		return Deposit + balance;
+	}
+	
+	
+	
+}

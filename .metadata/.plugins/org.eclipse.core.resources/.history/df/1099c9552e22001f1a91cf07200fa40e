@@ -1,0 +1,7 @@
+package myPack;
+
+interface FirstInterface 
+{
+	int i = 69;//public static final
+	void show();// public abstract
+}

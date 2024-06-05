@@ -1,0 +1,9 @@
+package ThirdPro;
+
+public class ShapeCalc {
+
+	public ShapeCalc() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

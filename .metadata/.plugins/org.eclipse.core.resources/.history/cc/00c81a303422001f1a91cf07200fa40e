@@ -1,0 +1,9 @@
+package yourPack;
+
+public interface SecondInterface 
+{	
+	int i = 22;
+	void show();
+	void demo();
+	
+}

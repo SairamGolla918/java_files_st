@@ -1,0 +1,28 @@
+package Assessment6;
+
+public class Consructors {
+	
+	int i;
+	int j;
+	String k;
+	float f;
+	double d;
+	public Consructors(int i, int j, String k, float f, double d) 
+	{
+		super();
+		this.i = i;
+		this.j = j;
+		this.k = k;
+		this.f = f;
+		this.d = d;
+	}
+	@Override
+	public String toString() {
+		return "Consructors [i=" + i + ", j=" + j + ", k=" + k + ", f=" + f + ", d=" + d + "]";
+	}
+	public static void main(String[] args)
+	{
+		Consructors C1 = new Consructors(1,2,"St33",5.00f,5.5);
+		System.out.println(C1);
+	}
+}

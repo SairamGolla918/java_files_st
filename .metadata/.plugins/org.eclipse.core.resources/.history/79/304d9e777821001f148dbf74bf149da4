@@ -1,0 +1,31 @@
+package Assessment6;
+
+public class MethodOLandOR {
+
+	public void MethodOL() 
+	{
+		System.out.println("MethodOL");
+	}
+	int MethodOL(int i,int j)
+	{
+		return i + j;
+	}
+	
+}
+
+class MethodOR extends MethodOLandOR
+{	
+	public void MethodOL() 
+	{
+		System.out.println("MethodOL");
+	}
+	int MethodOL(int i,int j)
+	{
+		return i + j;
+	}
+	public static void main(String[] args)
+	{
+		MethodOLandOR M1 = new MethodOLandOR();
+		M1.MethodOL();
+	}
+}
