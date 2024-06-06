@@ -11,7 +11,7 @@ public class OverRiddingTest extends OverRiddingDemo
 	}
 	public static void main(String[] args) 
 	{
-		OverRiddingDemo R1 = new OverRiddingDemo();
+		OverRiddingDemo R1 = new OverRiddingTest();
 //		System.out.print(R1.show(12));
 		R1.show(12);
 
