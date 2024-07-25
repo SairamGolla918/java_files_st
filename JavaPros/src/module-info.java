@@ -4,5 +4,5 @@
 /**
  * 
  */
-module JavaPros {
+module FunctionalInteraface {
 }

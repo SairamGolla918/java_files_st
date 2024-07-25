@@ -1,3 +1,13 @@
+// Enter your number: 6
+//       *
+//      * *
+//     * * *
+//    * * * *
+//   * * * * *
+//  * * * * * *
+
+
+
 import java.util.Scanner;
 
 public class Pyramid {

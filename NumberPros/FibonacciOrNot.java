@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 class FibonacciOrNot
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int num1 = sc.nextInt();
@@ -20,7 +21,7 @@ class FibonacciOrNot
                 flag = true;
                 break;
             }
-
+         
         }
         if(flag == false)
             System.out.println("Its not Fibnooci");

@@ -1,8 +1,0 @@
-package ourpack;
-
-import myPack.FirstInterface;
-import yourPack.SecondInterface;
-
-public class ClassOne implements FirstInterface, SecondInterface {
-
-}

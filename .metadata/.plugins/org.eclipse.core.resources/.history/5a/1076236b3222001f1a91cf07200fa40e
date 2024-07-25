@@ -1,8 +1,0 @@
-package yourPack;
-
-public interface SecondInterface 
-{
-	void show();
-	void demo();
-	
-}

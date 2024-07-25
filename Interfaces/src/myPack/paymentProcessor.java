@@ -86,4 +86,11 @@ class paymentProcessor
 	}
 }
 
+class ATM
+
+{
+	int card;
+	int id;
+	
+}
 

@@ -1,6 +1,0 @@
-package myPack;
-
-public interface First 
-{
-	void show();
-}
