@@ -7,6 +7,7 @@ public class CustomException extends Exception
 	CustomException(String message)
 	{
 		this.message=message;
+		
 	}
 	
 	void temp()throws Exception

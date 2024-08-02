@@ -11,14 +11,15 @@ public class FirstLoader
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/st33","root","S@iee918");
-			
 			Statement st = con.createStatement();
+			
 			//int i = st.executeUpdate("insert into student values(1,'Saieeyadav','CSE','IIIT RK VALLEY','Nandikotkur,Kurnool,AP',22,'20020104')");
 			//System.out.println(i);
 			
 			//int j = st.executeUpdate("update student set StuName='Saiee Yadav' where StuId=1");
 			//System.out.println(j);
 			//int k = st.executeUpdate("delete from student where StuBranch = 'Mech'");
+		
 			ResultSet rs = st.executeQuery("select * from student");
 			
 			while(rs.next())

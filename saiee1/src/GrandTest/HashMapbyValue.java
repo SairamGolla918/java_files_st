@@ -8,15 +8,15 @@ public class HashMapbyValue
 
 	public static void main(String[] args) 
 	{
-		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+		Map<Integer,Character> map = new HashMap<Integer,Character>();
 		
-		map.put(0,9);
-		map.put(1,3);
-		map.put(2,4);
-		map.put(3,0);
-		map.put(4,10);
+		map.put(0,'a');
+		map.put(1,'B');
+		map.put(2,'C');
+		map.put(3,'z');
+		map.put(4,'A');
 		
-		map.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);  
+		map.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::print);  
 	
 	}
 }

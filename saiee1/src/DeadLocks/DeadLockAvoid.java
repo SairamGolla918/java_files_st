@@ -2,7 +2,8 @@ package DeadLocks;
 
 public class DeadLockAvoid {
 
-	public DeadLockAvoid() {
+	public DeadLockAvoid() 
+	{
 		
 	}
 	public static void main(String[] args) 

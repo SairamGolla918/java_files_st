@@ -12,6 +12,7 @@ public class SynchronizatioN extends Thread
 	public static void main(String[] args) 
 	{
 		SynchronizatioN obj = new SynchronizatioN();
+		
 		Thread t1 = new Thread(obj);
 		Thread t2 = new Thread(obj);
 		
