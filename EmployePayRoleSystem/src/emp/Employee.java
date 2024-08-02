@@ -63,8 +63,8 @@ class FullTimeEmployee extends Employee
 
 	@Override
 	public String toString() {
-		return "FullTimeEmployee [Salary=" + Salary + ", Id=" + Id + ", Name=" + Name + ", Designation=" + Designation
-				+ "]";
+		return "FullTimeEmployee [ Id=" + Id + ", Name=" + Name + ", Designation=" + Designation
+				+ ", Salary=" + Salary +"]";
 	}
 	
 
@@ -131,7 +131,7 @@ class PayrollSystem
 		{
 			for(Employee emp: Emplist)
 			{
-				System.out.println(emp+" Salary "+emp.calculateSal());
+				System.out.println(emp);
 				
 			}
 		}
