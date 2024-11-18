@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	
+	
+	<context:component-scan base-package="com.spring.springdemo"></context:component-scan>
+	
+	<!-- <bean id="wish1" class="com.spring.springdemo.beans.Wish" factory-method="createWishObject" init-method="initWish" destroy-method="destroyWsih" scope="singleton" lazy-init="true">
+		<property name="message" value="Good Morning India"/>
+	</bean>
+	
+	<bean class="com.spring.springdemo.help.MyBeanPostProcessor" >
+	</bean> -->
+	
+	<!--  <bean id="customerAddress" class="com.spring.springdemo.beans.Address">
+		<property name="hno" value="1-2-3"></property>
+		<property name="streetName" value="Sri Ram Nagar"></property>
+		<property name="city" value="Kurnool"></property>
+		<property name="state" value="AP"></property>
+	</bean> -->
+	<!--   <bean id="add1" class="com.spring.springdemo.beans.Address" p:hno="7-7-8" p:streetName="Shaiva Street" p:city="Hyd" p:state="Ap"/> -->
+	<!-- <bean id="add2" class="com.spring.springdemo.beans.Address">
+		<property name="hno" value="1-2-4"></property>
+		<property name="streetName" value="Saiee Ram Nagar"></property>
+		<property name="city" value="Kurnool"></property>
+		<property name="state" value="RayalaSeema"></property>
+	</bean>-->
+	<!--   <bean id="cust2" class="com.spring.springdemo.beans.Customer">
+		<property name="CustomerNo" value="8001"></property>
+		<property name="CustomerName" value="SaieeYadav"></property>
+		<property name="mobileNo" value="9542127704"></property>
+		<constructor-arg name="customerAddress" ref="add"/>
+	</bean>
+	<bean id="cust" class="com.spring.springdemo.beans.Customer" c:CustomerNo="7701" c:CustomerName="Shiva" c:mobileNo="88989897755" c:customerAddress-ref="add1"/> -->
+	
+	 <!-- <bean id="cust1" class="com.spring.springdemo.beans.Customer" autowire="constructor">
+		<property name="CustomerNo" value="8001"></property>
+		<property name="CustomerName" value="SaieeYadav"></property>
+		<property name="mobileNo" value="9542127704"></property>
+	</bean>-->
+	
+	
+</beans>

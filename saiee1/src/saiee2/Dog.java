@@ -6,7 +6,7 @@ public class Dog
 	{
 		System.out.println("Woof");
 	}
-	public static void main(String[] args)
+	public static void mains(String[] args)
 	{
 		Dog d1 = new Dog();
 		d1.makeSound();

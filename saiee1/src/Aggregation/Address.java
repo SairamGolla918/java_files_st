@@ -1,5 +1,7 @@
 package Aggregation;
 
+
+@Component
 public class Address 
 {
 	
