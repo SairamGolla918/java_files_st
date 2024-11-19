@@ -1,4 +1,4 @@
-public class forCheck 
+class forCheck 
 {
     public static void main(String[] args) 
     {
